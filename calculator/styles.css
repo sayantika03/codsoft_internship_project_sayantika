@@ -1,0 +1,75 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500;600&family=Fjalla+One&family=Inconsolata&family=Indie+Flower&family=Inter&family=Libre+Baskerville:wght@700&family=Macondo&family=Oswald:wght@500&family=PT+Serif:wght@700&family=Pacifico&family=Playfair+Display:ital,wght@1,500&family=Quicksand&family=Roboto+Slab:wght@300&family=Tiro+Gurmukhi&family=Ubuntu&family=Victor+Mono:wght@100;400&display=swap');
+
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family:'Inconsolata', 'monospace';
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+  justify-content: center;
+  background:#e0e0e0;
+}
+.container{
+    position: relative;
+   
+    width:400px;
+    border-radius: 25px;
+  padding: 20px 20px 20px 40px;
+  background: #e0e0e0;
+  box-shadow: 0 5px 10px rgba(83, 78, 78, 0.05);
+  box-shadow: 5px 5px 10px #bcbcbc,-5px -5px 10px #ffff;
+
+}
+.button{
+  width: 66px;
+  padding: 20px;
+  margin: 0 3px;
+ box-shadow: 5px 5px 10px #bcbcbc,-5px -5px 10px #ffff;
+  border-radius: 9px;
+  cursor: pointer;
+  font-size:large;
+  border: none;
+}
+
+.display{
+    height: 70px;
+    width: 100%;
+    padding:  10px 0px;
+  outline: none;
+  border: none;
+  text-align: right;
+  margin-bottom: 10px;
+  font-size: 25px;
+  color: #000e1a;
+  pointer-events: none;
+}
+.buttons {
+    margin: 8px 0;
+
+  }
+.buttonss{
+  
+  width: 91%;
+}
+
+  .buttons button:active {
+    transform: scale(1.00);
+  }
+ .input{
+  height: 50px;
+  margin-bottom: 20px;
+  width: 100%;
+  font-size: large;
+  padding: 12px;
+  text-align: end;
+  border-radius: 10px;
+  border: none;
+  background-color: #f1f1f1;
+  box-shadow:inset 5px 5px 10px #bcbcbc,-5px -5px 10px #ffff;
+ }
